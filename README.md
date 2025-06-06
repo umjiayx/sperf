@@ -2,15 +2,16 @@
 
 This repository contains the official implementation of [Shorter SPECT scans using self-supervised coordinate learning to synthesize skipped projection views](https://ejnmmiphys.springeropen.com/articles/10.1186/s40658-025-00762-3).
 
-The datasets generated and/or analyzed during the current study are available from the corresponding author on reasonable request.
 
 ## Pipeline Overview
 
+This study addresses the challenge of extended SPECT imaging duration under low-count conditions, as encountered in Lu-177 SPECT imaging, by developing a self-supervised learning approach to synthesize skipped SPECT projection views, thus shortening scan times in clinical settings.
+
 ![Overview of the SpeRF pipeline](assets/sperf_overview.png)
 
-## Code
+## Code and Datasets
 
-The majority of the source code is written in [Python](https://www.python.org). Neural networks are built and trained using the [PyTorch](https://pytorch.org/) automatic differentiation framework. Reconstruction and analysis code are written in [MATLAB](https://www.mathworks.com/products/matlab.html). 
+The majority of the source code is written in [Python](https://www.python.org). Neural networks are built and trained using the [PyTorch](https://pytorch.org/) automatic differentiation framework. Reconstruction and analysis code are written in [MATLAB](https://www.mathworks.com/products/matlab.html). The datasets generated and/or analyzed during the current study are available from the corresponding author on reasonable request.
 
 ## Environment Setup
 
