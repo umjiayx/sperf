@@ -1,0 +1,29 @@
+expname = patient2_c1_s4
+logsdir = ../logs
+srcdir = ../src
+datadir = /home/jiayx/ondemand/data/sys/myjobs/projects/default/sperf/dotatate_patients_256_nearest/group1/patient2_c1_s4//config/../patient_data/proj/proj_patient2_c1_s4_256_nearest.jld2
+psfdir = /home/jiayx/ondemand/data/sys/myjobs/projects/default/sperf/dotatate_patients_256_nearest/group1/patient2_c1_s4//config/../patient_data/radial_position/radial_position_proj_patient2_c1_s4.txt
+model = nerf
+netdepth = 12
+netwidth = 256
+encoderlevel = 0
+downfactor = 2
+start = 1
+
+nepochs = 200
+lr = 0.001
+optim = adam
+batchsize = 10000
+validfrac = 0.2
+firstomega = 3
+hiddenomega = 3
+
+do_online_test = True
+online_test_epoch_gap = 10
+
+loss_fun = huber
+gpu_ids = 0
+
+
+
+
