@@ -1,6 +1,7 @@
 # SpeRF: Shorter SPECT scans using self-supervised coordinate learning to synthesize skipped projection views
 
-This repository contains the official implementation of [Shorter SPECT scans using self-supervised coordinate learning to synthesize skipped projection views](https://ejnmmiphys.springeropen.com/articles/10.1186/s40658-025-00762-3).
+This repository contains the official implementation of
+[Shorter SPECT scans using self-supervised coordinate learning to synthesize skipped projection views](https://doi.org/10.1186/s40658-025-00762-3).
 
 
 ## Pipeline Overview
@@ -87,6 +88,7 @@ If you find this work useful, please cite it as follows:
   number={1},
   pages={1--16},
   year={2025},
+  url={https://doi.org/10.1186/s40658-025-00762-3},
   publisher={Springer}
 }
 ```
