@@ -1,4 +1,4 @@
-function psma_sperf_recon_bed2(patient_id, patient_name, start)
+function psma_sperf_recon_bed2(patient_id, start)
     %% Parameters
     nx = 128;
     ny = 128;
@@ -12,7 +12,7 @@ function psma_sperf_recon_bed2(patient_id, patient_name, start)
     mu_st = 80;
     mu_end = 158;
     
-    mumap_path = ['./mumap_fld/mumap_psma_test_', patient_name, '.fld'];
+    mumap_path = ['./mumap_fld/mumap_psma_', patient_id, '.fld'];
     psf_path = ['./psf/psf/psf_proj_psma_', patient_id, '_b2_208.fld'];
     proj2_path = ['./proj_fld/proj_psma_', patient_id, '_b2.fld'];
     foldername = strcat('./recon/sperf_recon/psma_', patient_id, '_b2/');

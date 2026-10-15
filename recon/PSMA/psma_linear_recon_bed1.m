@@ -1,4 +1,4 @@
-function psma_linear_recon_bed1(patient_id, patient_name)
+function psma_linear_recon_bed1(patient_id)
     %% Parameters
     nx = 128;
     ny = 128;
@@ -13,7 +13,7 @@ function psma_linear_recon_bed1(patient_id, patient_name)
     downfactor = 4;
     start = 1;
 
-    mumap_path = ['./mumap_fld/mumap_psma_test_', patient_name, '.fld'];
+    mumap_path = ['./mumap_fld/mumap_psma_', patient_id, '.fld'];
     psf_path = ['./psf/psf/psf_proj_psma_', patient_id, '_b1_208.fld'];
     proj1_path = ['./proj_fld/proj_psma_', patient_id, '_b1.fld'];
     foldername = ['./recon/linear_recon/psma_', patient_id, '_b1/'];
