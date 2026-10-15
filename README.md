@@ -14,6 +14,8 @@ This study addresses the challenge of extended SPECT imaging duration under low-
 
 The majority of the source code is written in [Python](https://www.python.org). Neural networks are built and trained using the [PyTorch](https://pytorch.org/) automatic differentiation framework. Reconstruction and analysis code are written in [MATLAB](https://www.mathworks.com/products/matlab.html). The datasets generated and/or analyzed during the current study are available from the corresponding author on reasonable request.
 
+The de-identified DOTATATE and PSMA patient data (SPECT projections, radial positions, attenuation maps, PSFs and ROI masks) are available at [umjiayx18/SpeRF_data](https://huggingface.co/datasets/umjiayx18/SpeRF_data) on Hugging Face. Access is gated: request access on the dataset page and it will be reviewed. The `sperf_input/` folders follow the working directory structure below, and the `recon_input/` folders are laid out for the scripts in `recon/` and `analysis/`.
+
 ## Environment Setup
 
 To set up the environment for SpeRF, we provide an `environment.yml` file that contains all the necessary dependencies. You can create and activate the conda environment using the commands below. 
